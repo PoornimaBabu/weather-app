@@ -1,6 +1,10 @@
 {
   "name": "webserver",
   "version": "1.0.0",
+  "engines": {
+    "node": "15.2.1",
+    "npm": "7.11.1"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js"
