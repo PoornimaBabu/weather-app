@@ -16,9 +16,9 @@
     "express": "^4.17.1",
     "hbs": "^4.1.2",
     "heroku": "^7.54.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PoornimaBabu/weather-app.git"
