@@ -11,7 +11,7 @@ const getWeather = (latitude, longitude, callback) => {
         } else{
             //console.log(resp)
             callback('', {
-                forecast: resp.body.current.weather_descriptions[0] + '. Temperature is ' +  resp.body.current.temperature + ' celcius' + '. But feels like ' + resp.body.current.feelslike +  '.'
+                forecast: resp.body.current.weather_descriptions[0] + '. Temperature is ' +  resp.body.current.temperature + ' celcius' + '. But feels like ' + resp.body.current.feelslike + ' with ' +  (resp.body.current.precip) * 100 +  '% chances of rain.' 
             })
         }
     })
